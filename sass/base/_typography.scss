@@ -1,0 +1,30 @@
+
+//typography CSS
+
+$title-font: 'Exo', sans-serif;
+$text-font: 'Montserrat', sans-serif;
+
+$weight-bold: 800;
+$weight-semi-bold: 600;
+$weight-light: 300;
+
+html {
+  font-size: 16px; 
+}
+
+body {
+  font-family: $text-font;
+  line-height: 1.4;
+  // color: $text-secondary;
+}
+
+//title
+
+// .title {
+//   margin: 50px 0;
+
+//   font-size: 1.5em;
+//   font-weight: $weight-bold;
+//   text-transform: uppercase;
+//   text-align: center;
+// }
