@@ -136,6 +136,13 @@ body {
   background-color: #FFF;
 }
 
+.contain-burger {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+}
+
 .burger-nav {
   position: relative;
   height: 3px;
@@ -172,6 +179,34 @@ body {
 
 .nav {
   display: none;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #FFF;
+  border-top: 15px solid #DBEDF8;
+  z-index: 1;
+}
+
+.nav .section {
+  display: block;
+  padding: 15px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav .section:hover {
+  color: #67328D;
+}
+
+.section .fa-angle-down {
+  position: relative;
+  top: 4px;
+  margin-left: 5px;
 }
 
 .events_cities,
@@ -207,6 +242,14 @@ body {
   }
 }
 @media only screen and (min-width: 1150px) {
+  .navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+
   .container-navbar {
     padding: 15px 50px;
   }
@@ -215,23 +258,13 @@ body {
     position: relative;
     top: -4px;
     display: block;
+    text-align: right;
+    border: none;
   }
 
   .nav .section {
+    display: inline-block;
     padding: 0 15px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: color 0.3s;
-  }
-
-  .nav .section:hover {
-    color: #67328D;
-  }
-
-  .section .fa-angle-down {
-    position: relative;
-    top: 4px;
-    margin-left: 5px;
   }
 
   .burger-nav {
