@@ -190,12 +190,14 @@ body {
     border-radius: 0 13px 13px 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1150px) {
   .container-navbar {
     padding: 15px 50px;
   }
 
   .nav {
+    position: relative;
+    top: -4px;
     display: block;
   }
 
@@ -208,6 +210,12 @@ body {
 
   .nav .section:hover {
     color: #67328D;
+  }
+
+  .section .fa-angle-down {
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
   }
 
   .burger-nav {
