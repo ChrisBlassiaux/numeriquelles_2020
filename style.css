@@ -94,6 +94,11 @@ a {
     margin-left: 70px;
   }
 }
+.main img,
+.main .image {
+  border-radius: 7px;
+}
+
 html {
   font-size: 14px;
 }
@@ -101,6 +106,28 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.4;
+}
+
+.title {
+  margin: 70px 0 20px 0;
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+.title .circles {
+  color: #67328D;
+}
+
+.first-title {
+  margin-top: 100px;
+}
+
+.subtitle {
+  margin: 0 0 30px 0;
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #67328D;
+  opacity: 0.75;
 }
 
 .container {
@@ -325,6 +352,40 @@ body {
   background-color: #d4edda;
   color: #155724;
   border: 1px solid #c3e6cb;
+}
+
+.parade-images .image {
+  position: relative;
+  height: 280px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.parade-images .image .more {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  color: #0AD6A1;
+}
+
+.parade-images .parade-1 {
+  background: center/cover no-repeat url(../../images/home_1.png);
+}
+
+.parade-images .parade-2 {
+  background: center/cover no-repeat url(../../images/home_1.png);
+}
+
+@media only screen and (min-width: 768px) {
+  .parade-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .parade-images .image {
+    height: 320px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
