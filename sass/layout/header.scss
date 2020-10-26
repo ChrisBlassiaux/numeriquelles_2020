@@ -1,23 +1,11 @@
 .header {
   position: relative;
   height: 415px;
-
-  background: center / cover no-repeat url(../../images/header_home_page.png);
 }
 
 // navbar
 .navbar {
   background-color: #FFF;
-}
-
-.container-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 15px 20px;
 }
 
 // burger
@@ -66,19 +54,68 @@
   display: none;
 }
 
-// jumbotron
-.jumbotron {
-  position: absolute;
-  bottom: 20px;
+.events_cities,
+.stages {
+  display: none;
 }
 
-.jumbotron .presentation {
+// jumbotron
+.jumbotron {
+  position: relative;
+  height: 415px;
+
+  background: center / cover no-repeat url(../../images/header_home_page.png);
+}
+
+.jumbotron .presentation { 
+  position: absolute;
+  bottom: 30px;
+}
+
+.jumbotron .text {
   background-color: rgba(255, 255, 255, .75);
 }
 
-// finir btn + header mobile 
-//commit 
-// add typo 
-//commit 
-// header desktop
-// header JS
+@media only screen and (min-width: 768px) {
+  // jumbotron
+  .jumbotron {
+    height: 330px;
+  }
+
+  .jumbotron .text {
+    width: 550px;
+    padding-left: 70px;
+
+    border-radius: 0 13px 13px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-navbar {
+    padding: 15px 50px;
+  }
+
+  // nav
+  .nav {
+    display: block;
+  }
+
+  .nav .section {
+     padding: 0 15px;
+
+     text-transform: uppercase;
+
+     cursor: pointer;
+     transition: color .3s;
+  }
+
+  .nav  .section:hover {
+    color: $text-primary;
+  }
+
+
+  // burger-nav
+  .burger-nav {
+    display: none;
+  }
+}

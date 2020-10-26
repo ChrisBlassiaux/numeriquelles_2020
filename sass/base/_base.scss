@@ -45,4 +45,15 @@ a {
 }
 
 //hover
+// .btn {
+
+// }
+
 //responsive
+@media only screen and (min-width: 768px) { 
+  .btn {
+    width: auto;
+    padding: 12px 15px;
+    margin-left: 70px;
+  }
+}
