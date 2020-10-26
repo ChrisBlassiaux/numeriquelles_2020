@@ -2,15 +2,15 @@ let navbar = document.querySelector('.navbar');
 let burger = document.querySelector('.contain-burger');
 let nav = document.querySelector('.nav');
 
-let products = document.querySelector('.nav .products');
-let navProducts = document.querySelector('.nav-products');
+let dropDownEvents = document.querySelector('.events-cities');
+let dropDownStages = document.querySelector('.stages');
+
+console.log(dropDownEvents)
 
 window.addEventListener('resize', function () {
-  if (window.innerWidth >= 1200) {
+  if (window.innerWidth >= 1150) {
     nav.style.display = 'block';
-  }
-
-  if (window.innerWidth <= 1200) {
+  } else if (window.innerWidth <= 1150) {
     nav.style.display = 'none';
   }
 })
@@ -25,11 +25,7 @@ burger.addEventListener('click', function () {
   }
 });
 
-products.addEventListener('click', function () {
-  if (navProducts.style.display == 'none') {
-    navProducts.style.display = 'flex';
-  } else {
-    navProducts.style.display = 'none';
-  }
-})
-
+// dropDownEvents.addEventListener('mouseover', function () {
+//   console.log('00'); 
+//     // dropDownEvents.style.display = 'block';
+// })

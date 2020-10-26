@@ -95,9 +95,47 @@
  margin-left: 5px;
 }
 
-.events_cities,
+.section.events-dropdown,
+.section.stages-dropdown {
+  position: relative;
+}
+
+.events-cities,
 .stages {
   display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  padding: 30px 25px;
+  width: 195px;
+
+  text-align: left;
+
+  background-color: #FFF;
+
+  border-radius: 13px;
+  border: 1px solid $bg-primary;
+}
+
+.events-cities a,
+.stages a {
+  display: block;
+  padding: 10px 0;
+
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.events-cities a:last-child,
+.stages a:last-child {
+  border: none;
+}
+
+.section-title-stages:hover + .stages {
+  display: block;
+}
+
+.section-title-events:hover + .events-cities {
+  display: block;
 }
 
 // jumbotron
@@ -144,7 +182,11 @@
   }
 
   .container-navbar {
-    padding: 15px 50px;
+    padding: 30px 50px;
+  }
+
+  .jumbotron {
+    margin-top: 120px;
   }
 
   // nav
