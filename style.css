@@ -70,6 +70,21 @@ a {
   color: #67328D;
   background-color: #DBEDF8;
   border-radius: 7px;
+  transition: 0.3s;
+}
+
+.btn .fa-angle-right {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.btn:hover .fa-angle-right {
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  padding-right: 18px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -176,6 +191,7 @@ body {
 }
 
 .jumbotron .text {
+  font-weight: 600;
   background-color: rgba(255, 255, 255, 0.75);
 }
 

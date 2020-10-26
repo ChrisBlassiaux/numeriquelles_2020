@@ -42,12 +42,25 @@ a {
   background-color: $bg-light;
 
   border-radius: 7px;
+
+  transition: .3s;
 }
 
 //hover
-// .btn {
+.btn .fa-angle-right {
+  opacity: 0;
 
-// }
+  transition: .3s;
+}
+
+.btn:hover .fa-angle-right {
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  padding-right: 18px;
+}
 
 //responsive
 @media only screen and (min-width: 768px) { 
