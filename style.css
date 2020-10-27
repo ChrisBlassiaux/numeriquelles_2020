@@ -302,6 +302,7 @@ body {
 .jumbotron .presentation {
   position: absolute;
   bottom: 30px;
+  width: 100%;
 }
 
 .jumbotron .text {
@@ -406,6 +407,7 @@ body {
   border: 1px solid #c3e6cb;
 }
 
+<<<<<<< HEAD
 .parade-images .image {
   position: relative;
   height: 280px;
@@ -523,8 +525,51 @@ body {
   }
 
   .draw-text {
+=======
+/*Cities*/
+.workshop p {
+  margin-top: 20px;
+}
+
+.name-city {
+  font-size: 30px;
+}
+
+.workshops-images {
+  background: center/cover no-repeat url(images/image1.png);
+  height: 260px;
+  border-radius: 7px;
+}
+
+.workshop-image-1 {
+  background-image: url(images/image2-1.png);
+}
+
+.workshop-image-2 {
+  background-image: url(images/image3-1.png);
+}
+
+.workshop-image-3 {
+  background-image: url(images/image5-1.png);
+}
+
+.workshop-image-4 {
+  background-image: url(images/image6-1.png);
+}
+
+.workshop-image-5 {
+  background-image: url(images/image7-1.png);
+}
+
+.workshop-image-6 {
+  background-image: url(images/image8-1.png);
+}
+
+@media only screen and (min-width: 900px) {
+  .workshops {
+>>>>>>> feat(cities): add video, workshops section
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template: 1fr 1fr 1fr 1fr/1fr 1fr;
     grid-gap: 30px;
   }
 }
