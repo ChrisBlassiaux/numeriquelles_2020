@@ -21,7 +21,7 @@ $text-dark: #1A1A1A;
 $text-white: #FFF;
 
 .bg-primary {
-  color: $text-primary !important;
+  background-color: $text-primary !important;
 }
 
 //base CSS
@@ -49,6 +49,11 @@ a {
   transition: .3s;
 }
 
+.btn-primary {
+  background-color: $bg-primary;
+  color: $text-light;
+}
+
 //hover
 .btn .fa-angle-right {
   opacity: 0;
@@ -70,6 +75,9 @@ a {
   .btn {
     width: auto;
     padding: 12px 15px;
+  }
+
+  .btn-header {
     margin-left: 70px;
   }
 }

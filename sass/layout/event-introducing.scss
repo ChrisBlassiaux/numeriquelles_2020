@@ -41,7 +41,6 @@
   background-image: url(../../images/photos/numeriquelles15.jpg);
 }
 
-
 .text-image .paragraphe {
   margin-top: 20px;
 }
@@ -92,6 +91,7 @@
   padding: 40px 18px 28px 18px;
   
   color: $text-dark;
+  text-align: left;
 
   background-color: #FFF;
 
@@ -128,9 +128,15 @@
   }
 
   // informations 
-  .informations {
+  .informations-nb-event {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 30px;
+  }
+
+  .informations-experts {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     grid-gap: 30px;
   }
 
