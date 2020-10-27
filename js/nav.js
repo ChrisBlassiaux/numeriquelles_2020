@@ -3,14 +3,15 @@ let burger = document.querySelector('.contain-burger');
 let nav = document.querySelector('.nav');
 
 let dropDownEvents = document.querySelector('.events-cities');
+let eventsTitle = document.querySelector('.section-title-events');
 let dropDownStages = document.querySelector('.stages');
 
 console.log(dropDownEvents)
 
 window.addEventListener('resize', function () {
-  if (window.innerWidth >= 1150) {
+  if (window.innerWidth >= 1200) {
     nav.style.display = 'block';
-  } else if (window.innerWidth <= 1150) {
+  } else if (window.innerWidth <= 1200) {
     nav.style.display = 'none';
   }
 })
@@ -24,8 +25,3 @@ burger.addEventListener('click', function () {
     navbar.classList.remove('fixed');
   }
 });
-
-// dropDownEvents.addEventListener('mouseover', function () {
-//   console.log('00'); 
-//     // dropDownEvents.style.display = 'block';
-// })

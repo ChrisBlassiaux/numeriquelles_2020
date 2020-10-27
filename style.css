@@ -263,7 +263,7 @@ body {
 .stages {
   display: none;
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 0;
   padding: 30px 25px;
   width: 195px;
@@ -285,12 +285,24 @@ body {
   border: none;
 }
 
-.section-title-stages:hover + .stages {
+.section-title-events {
+  position: relative;
+  display: inline-block;
+}
+
+.events-dropdown:hover .events-cities,
+.stages-dropdown:hover .stages {
   display: block;
 }
 
-.section-title-events:hover + .events-cities {
-  display: block;
+.events-cities a:hover,
+.stages a:hover {
+  background-color: whitesmoke;
+}
+
+.events-cities a,
+.stages a {
+  font-size: 0.9em;
 }
 
 .jumbotron {
@@ -320,7 +332,7 @@ body {
     border-radius: 0 13px 13px 0;
   }
 }
-@media only screen and (min-width: 1150px) {
+@media only screen and (min-width: 1200px) {
   .navbar {
     position: fixed;
     left: 0;
@@ -330,7 +342,7 @@ body {
   }
 
   .container-navbar {
-    padding: 30px 50px;
+    padding: 0 50px;
   }
 
   .jumbotron {
@@ -347,7 +359,7 @@ body {
 
   .nav .section {
     display: inline-block;
-    padding: 0 15px;
+    padding: 42px 15px;
   }
 
   .burger-nav {
