@@ -355,6 +355,40 @@ body {
     display: none;
   }
 }
+.footer {
+  margin-top: 100px;
+  background-color: #DBEDF8;
+}
+
+.title-list {
+  padding: 10px 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.list li {
+  margin: 15px 0;
+}
+
+.list a:hover,
+.footer .last a:hover {
+  color: #0AD6A1;
+}
+
+.footer .last {
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgba(10, 214, 161, 0.25);
+}
+
+@media only screen and (min-width: 992px) {
+  .footer .lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
 .alert {
   margin-bottom: 30px;
   padding: 12px 20px;
