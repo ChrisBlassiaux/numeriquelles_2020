@@ -71,6 +71,7 @@ a {
   padding: 12px 0;
   width: 100%;
   text-align: center;
+  font-weight: 800;
   color: #67328D;
   background-color: #DBEDF8;
   border-radius: 7px;
@@ -148,6 +149,16 @@ body {
   color: #0AD6A1;
 }
 
+@media only screen and (min-width: 1200px) {
+  .container-title {
+    position: sticky;
+    top: 73px;
+    padding-bottom: 7px;
+    background-color: #FFF;
+    border-bottom: 4px solid #DBEDF8;
+    z-index: 3;
+  }
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -158,6 +169,11 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.container-small-nested {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .container-navbar {
@@ -175,6 +191,7 @@ body {
 .header {
   position: relative;
   font-size: 0.9em;
+  z-index: 10;
 }
 
 .navbar {

@@ -59,3 +59,15 @@ body {
   font-weight: $weight-bold;
   color: $text-secondary;
 }
+
+@media only screen and (min-width: 1200px) {
+  .container-title {
+    position: sticky;
+    top: 73px;
+    padding-bottom: 7px;
+
+    background-color: #FFF;
+    border-bottom: 4px solid $bg-light;
+    z-index: 3;
+  }
+}
