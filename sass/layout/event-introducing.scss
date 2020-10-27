@@ -66,6 +66,10 @@
   align-items: center;
 }
 
+.information .info { 
+  padding: 45px 10px;
+}
+
 .information .first-text {
   margin: 20px 0;
 
@@ -131,6 +135,12 @@
   .informations-nb-event {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 30px;
+  }
+
+  .information-title {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     grid-gap: 30px;
   }
 
