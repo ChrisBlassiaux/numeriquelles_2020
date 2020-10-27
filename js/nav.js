@@ -9,15 +9,29 @@ let dropDownStages = document.querySelector('.stages');
 window.addEventListener('resize', function () {
   if (window.innerWidth >= 1200) {
     nav.style.display = 'block';
+
+    navbar.classList.add('fixed');
+
+    navbarSections.forEach(element => {
+      element.style.padding = "42px 15px";
+    });
   } else if (window.innerWidth <= 1200) {
     nav.style.display = 'none';
+
+    navbar.classList.add('fixed');
+
+    navbarSections.forEach(element => {
+      element.style.padding = "15px 15px";
+    });
   }
 })
 
 burger.addEventListener('click', function () {
   if (nav.style.display == 'none') {
     nav.style.display = 'block';
-    navbar.classList.add('fixed');
+    if (window.innerWidth <= 1200) {
+      navbar.classList.add('fixed');
+    }
   } else {
     nav.style.display = 'none';
     navbar.classList.remove('fixed');
@@ -30,16 +44,25 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    navbarSections.forEach(element => {
-      element.style.padding = "20px 15px";
-    });
+
+    if (window.innerWidth >= 1200) {
+      navbarSections.forEach(element => {
+        element.style.padding = "20px 15px";
+      });
+    }
     dropDownEvents.style.top = "65px";
     dropDownStages.style.top = "65px";
     navbar.style.borderBottom = "4px solid #DBEDF8";
   } else {
-    navbarSections.forEach(element => {
-      element.style.padding = "42px 15px";
-    });
+    if (window.innerWidth <= 1200) {
+      navbarSections.forEach(element => {
+        element.style.padding = "15px 15px";
+      });
+    } else {
+      navbarSections.forEach(element => {
+        element.style.padding = "42px 15px";
+      });
+    }
     dropDownEvents.style.top = "100px";
     dropDownStages.style.top = "100px";
     navbar.style.borderBottom = "none";

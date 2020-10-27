@@ -42,6 +42,7 @@
 
   border-radius: 3px;
 }
+
 .burger-nav::after{
   content: '';
   position: absolute;
@@ -69,6 +70,7 @@
   right: 0;
   bottom: 0;
   width: 100%;
+  height: 100vh;
 
   text-align: center;
 
@@ -76,6 +78,15 @@
 
   border-top: 15px solid $bg-light;
   z-index: 1;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 2;
 }
 
 .nav .section {
@@ -106,11 +117,9 @@
 .events-cities,
 .stages {
   display: none;
-  position: absolute;
-  top: 100px;
-  left: 0;
+  margin-top: 10px;
   padding: 30px 25px;
-  width: 195px;
+  width: 100%;
 
   text-align: left;
 
@@ -209,12 +218,13 @@
     position: relative;
     top: -4px;
     display: block;
+    width: auto;
+    height: auto;
 
     text-align: right;
 
     border: none;
   }
-
   .nav .section {
     display: inline-block;
     padding: 42px 15px;
@@ -223,5 +233,14 @@
   // burger-nav
   .burger-nav {
     display: none;
+  }
+
+  .events-cities,
+  .stages {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    padding: 30px 25px;
+    width: 195px;
   }
 }
