@@ -87,3 +87,24 @@ a {
 .main .image {
   border-radius: 7px;
 }
+
+// back-to-top
+.back-to-top {
+  display: none;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+
+  color: $bg-secondary;
+  text-align: center;
+
+  background-color: $bg-white;
+
+  border-radius: 100%;
+  border: 5px solid $bg-secondary;
+
+  z-index: 2;
+  cursor: pointer;
+}

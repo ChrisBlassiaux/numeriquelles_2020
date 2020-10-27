@@ -6,6 +6,8 @@ let dropDownEvents = document.querySelector('.events-cities');
 let eventsTitle = document.querySelector('.section-title-events');
 let dropDownStages = document.querySelector('.stages');
 
+let backToTop = document.querySelector('.back-to-top');
+
 window.addEventListener('resize', function () {
   if (window.innerWidth >= 1200) {
     nav.style.display = 'block';
@@ -44,7 +46,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-
+    backToTop.style.display = "block";
     if (window.innerWidth >= 1200) {
       navbarSections.forEach(element => {
         element.style.padding = "20px 15px";
@@ -54,6 +56,7 @@ function scrollFunction() {
     dropDownStages.style.top = "65px";
     navbar.style.borderBottom = "4px solid #DBEDF8";
   } else {
+    backToTop.style.display = "none";
     if (window.innerWidth <= 1200) {
       navbarSections.forEach(element => {
         element.style.padding = "15px 15px";

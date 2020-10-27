@@ -113,6 +113,22 @@ a {
   border-radius: 7px;
 }
 
+.back-to-top {
+  display: none;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+  color: #0AD6A1;
+  text-align: center;
+  background-color: #FFF;
+  border-radius: 100%;
+  border: 5px solid #0AD6A1;
+  z-index: 2;
+  cursor: pointer;
+}
+
 html {
   font-size: 16px;
 }
