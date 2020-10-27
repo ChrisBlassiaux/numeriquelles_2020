@@ -303,6 +303,7 @@ body {
 .jumbotron .presentation {
   position: absolute;
   bottom: 30px;
+  width: 100%;
 }
 
 .jumbotron .text {
@@ -407,125 +408,49 @@ body {
   border: 1px solid #c3e6cb;
 }
 
-section.parade-images .image {
-  position: relative;
-  height: 280px;
-  margin: 20px 0;
-  width: 100%;
-}
-
-section.parade-images .image .more {
-  position: absolute;
-  right: 10px;
-  bottom: 5px;
-  color: #0AD6A1;
-}
-
-section.parade-images .parade-1 {
-  background: center/cover no-repeat url(../../images/home_1.png);
-}
-
-section.parade-images .parade-2 {
-  background: center/cover no-repeat url(../../images/home_1.png);
-}
-
-section.text-image {
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-
-section.text-image .image {
-  height: 180px;
-  background: center/cover no-repeat url(../../images/home_1.png);
-}
-
-section.text-image .paragraphe {
+/*Cities*/
+.workshop p {
   margin-top: 20px;
 }
 
-section.information {
-  height: 300px;
-  margin: 30px 0;
-  color: #FFF;
-  text-align: center;
+.name-city {
+  font-size: 30px;
+}
+
+.workshops-images {
+  background: center/cover no-repeat url(images/image1.png);
+  height: 260px;
   border-radius: 7px;
-  background-color: #0AD6A1;
 }
 
-section.information .icon {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.workshop-image-1 {
+  background-image: url(images/image2-1.png);
 }
 
-section.information .first-text {
-  margin: 20px 0;
-  font-size: 1.3em;
-  font-weight: 800;
+.workshop-image-2 {
+  background-image: url(images/image3-1.png);
 }
 
-section.information .text {
-  padding: 0 6px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.workshop-image-3 {
+  background-image: url(images/image5-1.png);
 }
 
-section.information .text .first-text {
-  margin-top: 25px;
+.workshop-image-4 {
+  background-image: url(images/image6-1.png);
 }
 
-section.information .text .second-text {
-  margin-bottom: 6px;
-  padding: 40px 18px 28px 18px;
-  color: #1A1A1A;
-  background-color: #FFF;
-  border-radius: 0 0 7px 7px;
+.workshop-image-5 {
+  background-image: url(images/image7-1.png);
 }
 
-section.draw-text {
-  margin: 40px 0;
+.workshop-image-6 {
+  background-image: url(images/image8-1.png);
 }
 
-section.draw-text .image {
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-@media only screen and (min-width: 768px) {
-  section.parade-images {
+@media only screen and (min-width: 900px) {
+  .workshops {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-  }
-
-  section.parade-images .image {
-    height: 320px;
-  }
-
-  section.text-image {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-  }
-
-  .informations {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-gap: 30px;
-  }
-
-  section.information .text .second-text {
-    padding: 40px 18px;
-  }
-
-  section.draw-text {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template: 1fr 1fr 1fr 1fr/1fr 1fr;
     grid-gap: 30px;
   }
 }
