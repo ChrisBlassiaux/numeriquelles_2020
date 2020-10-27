@@ -100,7 +100,7 @@ a {
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
@@ -123,11 +123,29 @@ body {
 }
 
 .subtitle {
-  margin: 0 0 30px 0;
+  margin: 45px 0 30px 0;
   font-size: 1.4em;
   font-weight: 800;
   color: #67328D;
   opacity: 0.75;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 1.7em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+}
+.bold {
+  font-weight: 800;
+}
+
+.mark {
+  font-weight: 800;
+  color: #0AD6A1;
 }
 
 .container {
@@ -157,6 +175,7 @@ body {
 .header {
   position: relative;
   height: 415px;
+  font-size: 0.9em;
 }
 
 .navbar {
@@ -354,37 +373,56 @@ body {
   border: 1px solid #c3e6cb;
 }
 
-.parade-images .image {
+section.parade-images .image {
   position: relative;
   height: 280px;
   margin: 20px 0;
   width: 100%;
 }
 
-.parade-images .image .more {
+section.parade-images .image .more {
   position: absolute;
   right: 10px;
   bottom: 5px;
   color: #0AD6A1;
 }
 
-.parade-images .parade-1 {
+section.parade-images .parade-1 {
   background: center/cover no-repeat url(../../images/home_1.png);
 }
 
-.parade-images .parade-2 {
+section.parade-images .parade-2 {
   background: center/cover no-repeat url(../../images/home_1.png);
+}
+
+section.text-image {
+  margin-top: 60px;
+}
+
+section.text-image .image {
+  height: 180px;
+  background: center/cover no-repeat url(../../images/home_1.png);
+}
+
+section.text-image .paragraphe {
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  .parade-images {
+  section.parade-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
   }
 
-  .parade-images .image {
+  section.parade-images .image {
     height: 320px;
+  }
+
+  section.text-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
   }
 }
 
