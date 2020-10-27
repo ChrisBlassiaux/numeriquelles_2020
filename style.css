@@ -109,17 +109,13 @@ body {
 }
 
 .title {
-  margin: 70px 0 20px 0;
+  margin-top: 70px;
   font-size: 1.6em;
   font-weight: 800;
 }
 
-.title .circles {
+.container-title .circles {
   color: #67328D;
-}
-
-.first-title {
-  margin-top: 100px;
 }
 
 .subtitle {
@@ -174,7 +170,6 @@ body {
 
 .header {
   position: relative;
-  height: 415px;
   font-size: 0.9em;
 }
 
@@ -407,43 +402,43 @@ body {
   border: 1px solid #c3e6cb;
 }
 
-section.parade-images .image {
+.parade-images .image {
   position: relative;
   height: 280px;
   margin: 20px 0;
   width: 100%;
 }
 
-section.parade-images .image .more {
+.parade-images .image .more {
   position: absolute;
   right: 10px;
   bottom: 5px;
   color: #0AD6A1;
 }
 
-section.parade-images .parade-1 {
+.parade-images .parade-1 {
   background: center/cover no-repeat url(../../images/home_1.png);
 }
 
-section.parade-images .parade-2 {
+.parade-images .parade-2 {
   background: center/cover no-repeat url(../../images/home_1.png);
 }
 
-section.text-image {
+.text-image {
   margin-top: 60px;
   margin-bottom: 40px;
 }
 
-section.text-image .image {
+.text-image .image {
   height: 180px;
   background: center/cover no-repeat url(../../images/home_1.png);
 }
 
-section.text-image .paragraphe {
+.text-image .paragraphe {
   margin-top: 20px;
 }
 
-section.information {
+.information {
   height: 300px;
   margin: 30px 0;
   color: #FFF;
@@ -452,7 +447,7 @@ section.information {
   background-color: #0AD6A1;
 }
 
-section.information .icon {
+.information .icon {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -460,13 +455,13 @@ section.information .icon {
   align-items: center;
 }
 
-section.information .first-text {
+.information .first-text {
   margin: 20px 0;
   font-size: 1.3em;
   font-weight: 800;
 }
 
-section.information .text {
+.information .text {
   padding: 0 6px;
   height: 100%;
   display: flex;
@@ -475,11 +470,11 @@ section.information .text {
   align-items: center;
 }
 
-section.information .text .first-text {
+.information .text .first-text {
   margin-top: 25px;
 }
 
-section.information .text .second-text {
+.information .text .second-text {
   margin-bottom: 6px;
   padding: 40px 18px 28px 18px;
   color: #1A1A1A;
@@ -487,27 +482,27 @@ section.information .text .second-text {
   border-radius: 0 0 7px 7px;
 }
 
-section.draw-text {
+.draw-text {
   margin: 40px 0;
 }
 
-section.draw-text .image {
+.draw-text .image {
   width: 100%;
   margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 768px) {
-  section.parade-images {
+  .parade-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
 
-  section.parade-images .image {
+  .parade-images .image {
     height: 320px;
   }
 
-  section.text-image {
+  .text-image {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
@@ -519,11 +514,11 @@ section.draw-text .image {
     grid-gap: 30px;
   }
 
-  section.information .text .second-text {
+  .information .text .second-text {
     padding: 40px 18px;
   }
 
-  section.draw-text {
+  .draw-text {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 30px;
