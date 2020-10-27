@@ -7,6 +7,8 @@
 // navbar
 .navbar {
   background-color: #FFF;
+
+  transition: 0.4s;
 }
 
 // burger
@@ -83,7 +85,7 @@
   text-transform: uppercase;
 
   cursor: pointer;
-  transition: color .3s;
+  transition: .4s;
 }
 
 .nav .section:hover {

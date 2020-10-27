@@ -179,6 +179,7 @@ body {
 
 .navbar {
   background-color: #FFF;
+  transition: 0.4s;
 }
 
 .contain-burger {
@@ -241,7 +242,7 @@ body {
   padding: 15px 0;
   text-transform: uppercase;
   cursor: pointer;
-  transition: color 0.3s;
+  transition: 0.4s;
 }
 
 .nav .section:hover {
