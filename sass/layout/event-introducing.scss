@@ -16,14 +16,14 @@
 }
 
 .parade-images .parade-1 {
- background: center / cover no-repeat url(../../images/home_1.png);
+ background: center / cover no-repeat url(../../images/photos/numeriquelles4.jpg);
+ transition: 2s;
 }
 
 .parade-images .parade-2 {
-  background: center / cover no-repeat url(../../images/home_1.png);
+  background: center / cover no-repeat url(../../images/photos/numeriquelles5.jpg);
+  transition: 2s;
  }
-
-
 
 // Constat et objectifs
 .text-image {
@@ -34,8 +34,13 @@
 .text-image .image {
   height: 180px;
    
-  background: center / cover no-repeat url(../../images/home_1.png);
+  background: center / cover no-repeat url(../../images/photos/numeriquelles16.jpg);
 }
+
+.text-image .image-2 {
+  background-image: url(../../images/photos/numeriquelles15.jpg);
+}
+
 
 .text-image .paragraphe {
   margin-top: 20px;
