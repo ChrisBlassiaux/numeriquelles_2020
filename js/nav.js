@@ -52,8 +52,8 @@ function scrollFunction() {
         element.style.padding = "20px 15px";
       });
     }
-    dropDownEvents.style.top = "65px";
-    dropDownStages.style.top = "65px";
+    dropDownEvents.style.top = "55px";
+    dropDownStages.style.top = "55px";
     navbar.style.borderBottom = "4px solid #DBEDF8";
   } else {
     backToTop.style.display = "none";
@@ -66,8 +66,8 @@ function scrollFunction() {
         element.style.padding = "42px 15px";
       });
     }
-    dropDownEvents.style.top = "100px";
-    dropDownStages.style.top = "100px";
+    dropDownEvents.style.top = "80px";
+    dropDownStages.style.top = "80px";
     navbar.style.borderBottom = "none";
   }
 }
