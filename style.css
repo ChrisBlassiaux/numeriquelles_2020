@@ -57,7 +57,7 @@ body {
 }
 
 .bg-primary {
-  color: #67328D !important;
+  background-color: #67328D !important;
 }
 
 a {
@@ -146,6 +146,11 @@ body {
 .mark {
   font-weight: 800;
   color: #0AD6A1;
+}
+
+.mark-primary {
+  font-weight: 800;
+  color: #67328D;
 }
 
 .container {
@@ -459,11 +464,11 @@ body {
   background-image: url(../../images/array_html_543a1bc2ed8b7972.png);
 }
 
-.main-cities .container .informations .purple {
-  background-color: #67328D;
+iframe {
+  width: 100%;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   .workshops {
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr/1fr 1fr;
@@ -560,11 +565,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .main-cities .container .informations {
-    display: flex;
-    justify-content: center;
-  }
-
   .parade-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
