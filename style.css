@@ -446,10 +446,154 @@ body {
   background-image: url(../../images/image8-1.png);
 }
 
+.workshop-image-7 {
+  background-image: url(../../images/logo-1.png);
+}
+
+.workshop-image-8 {
+  background-image: url(../../images/array-1.png);
+  margin-bottom: 50px;
+}
+
+.workshop-image-9 {
+  background-image: url(../../images/array_html_543a1bc2ed8b7972.png);
+}
+
+.main-cities .container .informations .purple {
+  background-color: #67328D;
+}
+
 @media only screen and (min-width: 900px) {
   .workshops {
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr/1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+.parade-images .image {
+  position: relative;
+  height: 280px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.parade-images .image .more {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  color: #0AD6A1;
+}
+
+.parade-images .parade-1 {
+  background: center/cover no-repeat url(../../images/home_1.png);
+}
+
+.parade-images .parade-2 {
+  background: center/cover no-repeat url(../../images/home_1.png);
+}
+
+.text-image {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.text-image .image {
+  height: 180px;
+  background: center/cover no-repeat url(../../images/home_1.png);
+}
+
+.text-image .paragraphe {
+  margin-top: 20px;
+}
+
+.information {
+  margin: 30px 0;
+  color: #FFF;
+  text-align: center;
+  border-radius: 7px;
+  background-color: #0AD6A1;
+}
+
+.information .icon {
+  padding: 30px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information .first-text {
+  margin: 20px 0;
+  font-size: 1.3em;
+  font-weight: 800;
+}
+
+.information .text {
+  padding: 0 6px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information .text .first-text {
+  margin-top: 25px;
+}
+
+.information .text .second-text {
+  margin-bottom: 6px;
+  padding: 40px 18px 28px 18px;
+  color: #1A1A1A;
+  background-color: #FFF;
+  border-radius: 0 0 7px 7px;
+}
+
+.draw-text {
+  margin: 40px 0;
+}
+
+.draw-text .image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-cities .container .informations {
+    display: flex;
+    justify-content: center;
+  }
+
+  .parade-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .parade-images .image {
+    height: 320px;
+  }
+
+  .text-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .informations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 30px;
+  }
+
+  .information .text .second-text {
+    padding: 40px 18px;
+  }
+
+  .draw-text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 30px;
   }
 }

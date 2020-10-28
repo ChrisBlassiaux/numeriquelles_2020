@@ -105,6 +105,10 @@
 
 @media only screen and (min-width: 768px) {
   // parade
+  .main-cities .container .informations {
+    display: flex;
+    justify-content: center;
+  }
   .parade-images {
     display: grid;
     grid-template-columns: 1fr 1fr;

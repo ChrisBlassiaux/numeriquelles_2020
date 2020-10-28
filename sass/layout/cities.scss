@@ -1,5 +1,4 @@
 /*Cities*/
-
 .workshop p {
  margin-top: 20px;
 }
@@ -38,6 +37,21 @@
 .workshop-image-6 {
   background-image: url(../../images/image8-1.png);
 }
+.workshop-image-7 {
+  background-image: url(../../images/logo-1.png);
+}
+.workshop-image-8 {
+  background-image: url(../../images/array-1.png);
+  margin-bottom: 50px;
+}
+.workshop-image-9 {
+  background-image: url(../../images/array_html_543a1bc2ed8b7972.png);
+}
+
+.main-cities .container .informations .purple {
+  background-color: $bg-primary;
+}
+
 @media only screen and (min-width: 900px){
   .workshops {
     display: grid;
