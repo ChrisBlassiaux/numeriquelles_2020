@@ -174,6 +174,11 @@ body {
   color: #0AD6A1;
 }
 
+.mark-primary {
+  font-weight: 800;
+  color: #67328D;
+}
+
 @media only screen and (min-width: 1200px) {
   .container-title {
     position: sticky;
@@ -300,6 +305,10 @@ body {
   color: #67328D;
 }
 
+.nav .active {
+  color: #67328D;
+}
+
 .section .fa-angle-down {
   position: relative;
   top: 4px;
@@ -364,6 +373,7 @@ body {
 .jumbotron .presentation {
   position: absolute;
   bottom: 30px;
+  width: 100%;
 }
 
 .jumbotron .text {
@@ -421,7 +431,7 @@ body {
   .events-cities,
 .stages {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 0;
     padding: 30px 25px;
     width: 195px;
@@ -501,6 +511,78 @@ body {
 
   .partners img {
     width: 40%;
+  }
+}
+/*Cities*/
+.workshop p {
+  margin-top: 20px;
+}
+
+.name-city {
+  font-size: 30px;
+}
+
+.workshops-images {
+  background: center/cover no-repeat url(images/image1.png);
+  height: 260px;
+  border-radius: 7px;
+}
+
+.workshop-image-1 {
+  background-image: url(../../images/photos/femmesingénieursatelier.png);
+}
+
+.workshop-image-2 {
+  background-image: url(../../images/image3-1.png);
+}
+
+.workshop-image-3 {
+  background-image: url(../../images/image5-1.png);
+}
+
+.workshop-image-4 {
+  background-image: url(../../images/image6-1.png);
+}
+
+.workshop-image-5 {
+  background-image: url(../../images/image7-1.png);
+}
+
+.workshop-image-6 {
+  background-image: url(../../images/image8-1.png);
+}
+
+.container-video {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.rotate-array {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .workshops {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr/1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .container-video {
+    width: 560px;
+  }
+
+  .container-rotate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .informations-cities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
   }
 }
 .parade-images .image {
@@ -588,6 +670,7 @@ body {
 .information .text .second-text {
   margin-bottom: 6px;
   padding: 40px 18px 28px 18px;
+  width: 100%;
   color: #1A1A1A;
   text-align: left;
   background-color: #FFF;

@@ -105,6 +105,10 @@
  color: $text-primary;
 }
 
+.nav .active {
+  color: $text-primary;
+}
+
 .section .fa-angle-down {
  position: relative;
  top: 4px;
@@ -175,6 +179,7 @@
 .jumbotron .presentation { 
   position: absolute;
   bottom: 30px;
+  width: 100%;
 }
 
 .jumbotron .text {
@@ -240,7 +245,7 @@
   .events-cities,
   .stages {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 0;
     padding: 30px 25px;
     width: 195px;
