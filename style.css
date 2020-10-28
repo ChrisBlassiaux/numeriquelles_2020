@@ -735,5 +735,22 @@ body {
     grid-gap: 30px;
   }
 }
+.material-access-button {
+  margin-top: 60px;
+}
+
+.onisep-logo {
+  width: 100px;
+}
+
+.container-banner-onisep {
+  text-align: center;
+}
+
+/* .onisep-banner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+ */
 
 /*# sourceMappingURL=style.css.map */
