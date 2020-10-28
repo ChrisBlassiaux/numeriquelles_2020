@@ -648,5 +648,8 @@ body {
     grid-gap: 30px;
   }
 }
+.draw-text-ul {
+  list-style: disc;
+}
 
 /*# sourceMappingURL=style.css.map */
