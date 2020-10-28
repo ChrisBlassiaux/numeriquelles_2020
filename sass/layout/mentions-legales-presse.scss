@@ -1,8 +1,10 @@
 /*Mentions legales*/
-.mentions-legales {
+.mentions-legales,
+.presse {
   margin: 60px;
 }
-.mentions-legales p {
+.mentions-legales p,
+.presse p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -11,4 +13,7 @@
 }
 .mentions-ul li {
   padding-left: 5px;
+}
+b {
+  font-weight: bold;
 }
