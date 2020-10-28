@@ -1,0 +1,61 @@
+/*Contact*/
+.form-full {
+  margin: 10px;
+  margin-top: 100px;
+}
+.form-image {
+  background: 
+  linear-gradient(#646464a3, #646464a9),
+  no-repeat
+  url(images/home_1.png);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  color: #fff;
+}
+.form {
+  background-color: rgb(203, 203, 226);
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 90%;
+}
+.form input,
+.form textarea,
+.form button
+ {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  // parade
+  .form-full {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .form-image {
+    width: 500px;
+    height: 100vh;
+  }
+  .form {
+  padding: 50px;
+}
+.form input,
+.form textarea,
+.form button
+ {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+  form {
+    width: 100%;
+  }
+}
