@@ -60,6 +60,11 @@ body {
   color: $text-secondary;
 }
 
+.mark-primary {
+  font-weight: $weight-bold;
+  color: $text-primary;
+}
+
 @media only screen and (min-width: 1200px) {
   .container-title {
     position: sticky;
