@@ -513,6 +513,10 @@ body {
     width: 40%;
   }
 }
+.draw-text-ul {
+  list-style: disc;
+}
+
 /*Cities*/
 .workshop p {
   margin-top: 20px;
@@ -730,9 +734,6 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-gap: 30px;
   }
-}
-.draw-text-ul {
-  list-style: disc;
 }
 
 /*# sourceMappingURL=style.css.map */
