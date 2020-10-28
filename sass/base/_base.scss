@@ -6,7 +6,7 @@ $bg-success: #d4edda;
 $bg-danger: #f8d7da;
 $bg-warning: #FAD449;
 $bg-info: #0075FF;
-$bg-light: #FEFEF4;
+$bg-light: #DBEDF8;
 $bg-dark: #1A1A1A;
 $bg-white: #FFF;
 
@@ -20,7 +20,9 @@ $text-light: #DBEDF8;
 $text-dark: #1A1A1A;
 $text-white: #FFF;
 
-
+.bg-primary {
+  background-color: $text-primary !important;
+}
 
 //base CSS
 a {
@@ -31,5 +33,78 @@ a {
 }
 
 //btn CSS
+.btn {
+  display: inline-block;
+  padding: 12px 0;
+  width: 100%;
+
+  text-align: center;
+  font-weight: 800;
+  color: $text-primary;
+
+  background-color: $bg-light;
+
+  border-radius: 7px;
+
+  transition: .3s;
+}
+
+.btn-primary {
+  background-color: $bg-primary;
+  color: $text-light;
+}
+
 //hover
+.btn .fa-angle-right {
+  opacity: 0;
+
+  transition: .3s;
+}
+
+.btn:hover .fa-angle-right {
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  padding-right: 18px;
+}
+
 //responsive
+@media only screen and (min-width: 768px) { 
+  .btn {
+    width: auto;
+    padding: 12px 15px;
+  }
+
+  .btn-header {
+    margin-left: 70px;
+  }
+}
+
+// img
+.main img,
+.main .image {
+  border-radius: 7px;
+}
+
+// back-to-top
+.back-to-top {
+  display: none;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+
+  color: $bg-secondary;
+  text-align: center;
+
+  background-color: $bg-white;
+
+  border-radius: 100%;
+  border: 5px solid $bg-secondary;
+
+  z-index: 2;
+  cursor: pointer;
+}

@@ -1,25 +1,31 @@
 //display
 
 .container {
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 40px 50px;
+  padding: 20px;
 }
 
 .container-small {
-  max-width: 815px;
-  margin: 20px auto;
-  padding: 0 15px;
+  max-width:  1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-small-nested {
+  max-width:  1100px;
+  margin: 0 auto;
 }
 
 .container-navbar {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 15px 20px;
 }
 
-@media only screen and (min-width: 1100px) {
-  .container {
-    padding: 150px 15px;
-  }
+.container-jumbotron {
+  max-width: 1400px;
+  margin: 0 auto;
 }
