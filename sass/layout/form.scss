@@ -3,27 +3,31 @@
   margin: 10px;
   margin-top: 100px;
 }
+
 .form-image {
   background: 
-  linear-gradient(#646464a3, #646464a9),
-  no-repeat
-  url(images/home_1.png);
+  linear-gradient(#00000070, #0000006c),
+  center / cover no-repeat url(images/home_1.png);
   
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 50vh;
-  color: #fff;
+  height: 570px;
+  color:rgb(255, 251, 251);
+  font-weight: 900;
 }
+
 .form {
-  background-color: rgb(203, 203, 226);
+  background-color: #DBEDF8;
   display: flex;
   justify-content: center;
 }
+
 form {
   width: 90%;
 }
+
 .form input,
 .form textarea,
 .form button
@@ -42,7 +46,8 @@ form {
   }
   .form-image {
     width: 500px;
-    height: 100vh;
+   
+  height: 570px;
   }
   .form {
   padding: 50px;

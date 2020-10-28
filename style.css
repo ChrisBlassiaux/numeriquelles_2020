@@ -514,17 +514,18 @@ body {
 }
 
 .form-image {
-  background: linear-gradient(#646464a3, #646464a9), no-repeat url(images/home_1.png);
+  background: linear-gradient(#00000070, #0000006c), center/cover no-repeat url(images/home_1.png);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 50vh;
-  color: #fff;
+  height: 570px;
+  color: #fffbfb;
+  font-weight: 900;
 }
 
 .form {
-  background-color: #cbcbe2;
+  background-color: #DBEDF8;
   display: flex;
   justify-content: center;
 }
@@ -550,7 +551,7 @@ form {
 
   .form-image {
     width: 500px;
-    height: 100vh;
+    height: 570px;
   }
 
   .form {
