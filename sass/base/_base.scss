@@ -39,6 +39,7 @@ a {
   width: 100%;
 
   text-align: center;
+  font-weight: 800;
   color: $text-primary;
 
   background-color: $bg-light;
@@ -46,6 +47,11 @@ a {
   border-radius: 7px;
 
   transition: .3s;
+}
+
+.btn-primary {
+  background-color: $bg-primary;
+  color: $text-light;
 }
 
 //hover
@@ -69,6 +75,9 @@ a {
   .btn {
     width: auto;
     padding: 12px 15px;
+  }
+
+  .btn-header {
     margin-left: 70px;
   }
 }
@@ -77,4 +86,25 @@ a {
 .main img,
 .main .image {
   border-radius: 7px;
+}
+
+// back-to-top
+.back-to-top {
+  display: none;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+
+  color: $bg-secondary;
+  text-align: center;
+
+  background-color: $bg-white;
+
+  border-radius: 100%;
+  border: 5px solid $bg-secondary;
+
+  z-index: 2;
+  cursor: pointer;
 }
