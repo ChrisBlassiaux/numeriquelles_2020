@@ -32,11 +32,9 @@
 }
 
 .text-image .image {
-  height: 180px;
-   
+  min-height: 100%;
   background: center / cover no-repeat url(../../images/photos/numeriquelles16.jpg);
 }
-
 .text-image .image-2 {
   background-image: url(../../images/photos/numeriquelles15.jpg);
 }
@@ -93,6 +91,7 @@
 .information .text .second-text {
   margin-bottom: 6px;
   padding: 40px 18px 28px 18px;
+  width: 100%;
   
   color: $text-dark;
   text-align: left;
