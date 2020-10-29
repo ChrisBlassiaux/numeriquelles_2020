@@ -17,7 +17,8 @@ du numérique.
 → Date de début : 24 octobre 2020 
 
 ## :eyes:  Aperçu ?
-Lien
+[procedure_de_connexion_via_site (1).pdf](https://github.com/ChrisBlassiaux/chrisb.fr-v2/files/5461684/procedure_de_connexion_via_site.1.pdf)
+
 
 ## :top:  Progression ?
 
