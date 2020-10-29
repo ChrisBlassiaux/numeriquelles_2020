@@ -10,9 +10,9 @@ for (let i = 0; i < 14; i++) {
 let image = 'url(../../images/photos/numeriquelles3.jpg)';
 
 const interval = setInterval(function() {
-  parade_1.style.backgroundImage = images[Math.floor(Math.random() * Math.floor(images.length + 1))];
+  parade_1.style.backgroundImage = images[Math.floor(Math.random() * Math.floor(images.length) + 1)];
 }, 8000);
 
 const interval_2 = setInterval(function() {
-  parade_2.style.backgroundImage = images[Math.floor(Math.random() * Math.floor(images.length + 1))];
+  parade_2.style.backgroundImage = images[Math.floor(Math.random() * Math.floor(images.length) + 1)];
 }, 10000);
