@@ -808,6 +808,10 @@ body {
   text-align: center;
 }
 
+.onisep-banner {
+  width: 100%;
+}
+
 /*Mentions legales*/
 .mentions-legales,
 .presse {
