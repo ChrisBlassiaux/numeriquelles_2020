@@ -1,8 +1,11 @@
 
 //typography CSS
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/HelveticaNeueLTStd-Roman.otf");
+}
 
-$title-font: 'Exo', sans-serif;
-$text-font: 'Montserrat', sans-serif;
+$text-font: 'Helvetica', sans-serif;
 
 $weight-bold: 800;
 $weight-semi-bold: 600;

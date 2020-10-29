@@ -129,12 +129,16 @@ a {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/HelveticaNeueLTStd-Roman.otf");
+}
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Helvetica", sans-serif;
   line-height: 1.4;
 }
 
