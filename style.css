@@ -378,6 +378,46 @@ body {
   background: center/cover no-repeat url(../../images/header_home_page.png);
 }
 
+.jumbotron-2 {
+  background-image: url(../../images/photos/numeriquelles1.jpg);
+}
+
+.jumbotron-3 {
+  background-image: url(../../images/photos/numeriquelles2.jpg);
+}
+
+.jumbotron-4 {
+  background-image: url(../../images/photos/numeriquelles3.jpg);
+}
+
+.jumbotron-5 {
+  background-image: url(../../images/photos/numeriquelles4.jpg);
+}
+
+.jumbotron-6 {
+  background-image: url(../../images/photos/numeriquelles5.jpg);
+}
+
+.jumbotron-7 {
+  background-image: url(../../images/photos/numeriquelles6.jpg);
+}
+
+.jumbotron-8 {
+  background-image: url(../../images/photos/numeriquelles7.jpg);
+}
+
+.jumbotron-9 {
+  background-image: url(../../images/photos/numeriquelles8.jpg);
+}
+
+.jumbotron-10 {
+  background-image: url(../../images/photos/numeriquelles9.jpg);
+}
+
+.jumbotron-11 {
+  background-image: url(../../images/photos/numeriquelles10.jpg);
+}
+
 .jumbotron .presentation {
   position: absolute;
   bottom: 30px;
@@ -794,6 +834,70 @@ b {
   height: 280px;
   margin: 20px 0;
   width: 100%;
+}
+
+/*Contact*/
+.form-full {
+  margin: 10px;
+  margin-top: 100px;
+}
+
+.form-image {
+  background: linear-gradient(#00000070, #0000006c), center/cover no-repeat url(images/home_1.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 570px;
+  color: #fffbfb;
+  font-weight: 900;
+}
+
+.form {
+  background-color: #DBEDF8;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 90%;
+}
+
+.form input,
+.form textarea,
+.form button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .form-full {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .form-image {
+    width: 500px;
+    height: 570px;
+  }
+
+  .form {
+    padding: 50px;
+  }
+
+  .form input,
+.form textarea,
+.form button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
