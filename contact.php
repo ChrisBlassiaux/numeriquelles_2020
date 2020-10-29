@@ -49,7 +49,7 @@
               </span>
             </span>
             
-            <a href="#" class="section active">Contact</a>
+            <a href="contact.php" class="section active">Contact</a>
           </nav>  
         </div>
       </div>
@@ -139,7 +139,7 @@
             <ul>
               <li><a href="onisep.html">Préparation élèves ONISEP</a></li>
               <li><a href="ambassadors.html">Ambassadrices du numérique</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
           <div class="list">
