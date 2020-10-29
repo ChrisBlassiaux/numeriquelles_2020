@@ -20,6 +20,10 @@ $text-light: #DBEDF8;
 $text-dark: #1A1A1A;
 $text-white: #FFF;
 
+html {
+  scroll-behavior: smooth; 
+}
+
 .bg-primary {
   background-color: $text-primary !important;
 }
