@@ -1,5 +1,7 @@
 let parade_1 = document.querySelector('.parade-1');
 let parade_2 = document.querySelector('.parade-2');
+let btnMore = document.querySelector('.parade-images .more');
+
 
 let images = [];
 

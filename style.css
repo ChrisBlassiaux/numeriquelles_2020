@@ -57,6 +57,10 @@ body {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-primary {
   background-color: #67328D !important;
 }
@@ -135,7 +139,6 @@ a {
 }
 html {
   font-size: 16px;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -616,6 +619,10 @@ body {
 .parade-images .parade-2 {
   background: center/cover no-repeat url(../../images/photos/numeriquelles5.jpg);
   transition: 2s;
+}
+
+.parade-images .more {
+  cursor: pointer;
 }
 
 .text-image {
