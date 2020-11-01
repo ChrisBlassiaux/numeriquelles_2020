@@ -375,7 +375,7 @@ body {
 .jumbotron {
   position: relative;
   height: 415px;
-  background: center/cover no-repeat url(../../images/header_home_page.png);
+  background: center/cover no-repeat url(../../images/photos/numeriquelles15.jpg);
 }
 
 .jumbotron-2 {
@@ -430,7 +430,14 @@ body {
 
 .jumbotron .text {
   font-weight: 600;
-  background-color: rgba(255, 255, 255, 0.75);
+  font-size: 1.1em;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.name-city {
+  font-size: 2em;
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 768px) {
@@ -572,10 +579,6 @@ body {
 /*Cities*/
 .workshop p {
   margin-top: 20px;
-}
-
-.name-city {
-  font-size: 30px;
 }
 
 .workshops-images {
