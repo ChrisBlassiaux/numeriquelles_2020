@@ -515,8 +515,12 @@ body {
 }
 /*Contact*/
 .form-full {
-  margin: 10px;
+  margin: 12px;
   margin-top: 30px;
+  background: #01f7ad;
+  background: linear-gradient(0deg, rgba(1, 247, 173, 0.664) 0%, rgba(103, 50, 141, 0.61) 100%);
+  background-size: cover;
+  border-radius: 3px;
 }
 
 .form-image {
@@ -527,6 +531,15 @@ body {
   color: black;
   font-weight: 900;
   margin-top: 50px;
+}
+
+.form-image img {
+  width: 50%;
+  margin-left: 100px;
+}
+
+.form .rgpd {
+  font-size: 12px;
 }
 
 .form {
@@ -544,8 +557,10 @@ form {
   margin-top: 15px;
   margin-bottom: 10px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 3px;
   padding: 5px;
+  border: bisque;
+  box-shadow: 5px 5px 2px 1px rgba(228, 228, 237, 0.2);
 }
 
 @media only screen and (min-width: 768px) {
@@ -570,7 +585,7 @@ form {
 .form button {
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 200%;
+    width: 100%;
   }
 
   form {
