@@ -4,7 +4,6 @@ let nav = document.querySelector('.nav');
 
 let dropDownEvents = document.querySelector('.events-cities');
 let eventsTitle = document.querySelector('.section-title-events');
-let dropDownStages = document.querySelector('.stages');
 
 let backToTop = document.querySelector('.back-to-top');
 
@@ -53,7 +52,6 @@ function scrollFunction() {
       });
     }
     dropDownEvents.style.top = "55px";
-    dropDownStages.style.top = "55px";
     navbar.style.borderBottom = "4px solid #DBEDF8";
   } else {
     backToTop.style.display = "none";
@@ -67,7 +65,6 @@ function scrollFunction() {
       });
     }
     dropDownEvents.style.top = "80px";
-    dropDownStages.style.top = "80px";
     navbar.style.borderBottom = "none";
   }
 }
