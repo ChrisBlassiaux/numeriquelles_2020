@@ -1,37 +1,27 @@
 /*Contact*/
 .form-full {
-  margin: 12px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: 0px;
   margin-top: 30px;
-  background: rgb(1,247,173);
-  background: linear-gradient(0deg, rgba(1, 247, 173, 0.664) 0%, rgba(103, 50, 141, 0.61) 100%);
-  background-size: cover;;
   border-radius: 3px;
-}
-//67328D #01f7ad38
-
-.form-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color:rgb(0, 0, 0);
-  font-weight: 900;
-  margin-top: 50px;
-}
-.form-image img {
-  width: 50%;
-  margin-left: 100px;
+  
 }
 .form .rgpd {
-  font-size: 12px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 300px;
+}
+.form .rgpd p {
+  font-size: 10px;
 }
 .form {
   display: flex;
   justify-content: center;
-}
-
-form {
-  width: 90%;
+  background: rgb(1,247,173);
+  background: linear-gradient(0deg, rgba(1, 247, 173, 0.664) 0%, rgba(103, 50, 141, 0.61) 100%);
+  background-size: cover;
+  padding: 10px;
 }
 .form input,
 .form textarea,
@@ -42,6 +32,8 @@ form {
   width: 100%;
   border-radius: 3px;
   padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: bisque;
   box-shadow: 5px 5px 2px 1px rgba(228, 228, 237, 0.2);
 }
@@ -53,14 +45,11 @@ form {
     flex-direction: row;
     justify-content: center;
   }
-  .form-image {
-    width: 500px;
-    height: 570px;
-    margin-left: 200px;
-  }
   .form {
   padding: 50px;
+  width: 50%;
 }
+
 .form input,
 .form textarea,
 .form button
