@@ -39,6 +39,10 @@
   box-shadow: 5px 5px 2px 1px rgba(228, 228, 237, 0.2);
 }
 
+button[type="submit"] {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   // parade
   .form-full {

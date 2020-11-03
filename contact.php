@@ -162,6 +162,6 @@
     </a>
     
     <script src="js/nav.js"></script>
-    <script src="contact.js"></script>
+    <script src="js/contact.js"></script>
   </body>
 </html>
