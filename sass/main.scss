@@ -1,16 +1,19 @@
-
 // imports base
-@import 'base/reset';
-@import 'base/base';
-@import 'base/typography';
+@import "base/reset";
+@import "base/base";
+@import "base/typography";
 
 // imports layout
-@import 'layout/grid.scss';
-@import 'layout/header.scss';
-@import 'layout/footer.scss';
-@import 'layout/alert.scss';
-@import 'layout/partners.scss';
+@import "layout/grid.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "layout/alert.scss";
+@import "layout/partners.scss";
+@import "layout/ambassadors.scss";
+@import "layout/cities.scss";
+@import "layout/event-introducing.scss";
+@import "layout/onisep.scss";
+@import 'layout/mentions-legales-presse.scss';
+@import 'layout/communication.scss';
 @import 'layout/form.scss';
-@import 'layout/ambassadors.scss';
-@import 'layout/cities.scss';
-@import 'layout/event-introducing.scss';
+@import 'layout/internships.scss';

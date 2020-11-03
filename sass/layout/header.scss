@@ -173,7 +173,51 @@
   position: relative;
   height: 415px;
 
-  background: center / cover no-repeat url(../../images/header_home_page.png);
+  background: center / cover no-repeat url(../../images/photos/numeriquelles15.jpg);
+}
+
+.jumbotron-2 {
+  background-image: url(../../images/photos/numeriquelles1.jpg);
+}
+
+.jumbotron-3 {
+  background-image: url(../../images/photos/numeriquelles2.jpg);
+}
+
+.jumbotron-4 {
+  background-image: url(../../images/photos/numeriquelles3.jpg);
+}
+
+.jumbotron-5 {
+  background-image: url(../../images/photos/numeriquelles4.jpg);
+}
+
+.jumbotron-6 {
+  background-image: url(../../images/photos/numeriquelles5.jpg);
+}
+
+.jumbotron-7 {
+  background-image: url(../../images/photos/numeriquelles6.jpg);
+}
+
+.jumbotron-8 {
+  background-image: url(../../images/photos/numeriquelles7.jpg);
+}
+
+.jumbotron-9 {
+  background-image: url(../../images/photos/numeriquelles8.jpg);
+}
+
+.jumbotron-10 {
+  background-image: url(../../images/photos/numeriquelles9.jpg);
+}
+
+.jumbotron-11 {
+  background-image: url(../../images/photos/numeriquelles10.jpg);
+}
+
+.jumbotron-12 {
+  background-image: url(../../images/photos/numeriquelles11.jpg);
 }
 
 .jumbotron .presentation { 
@@ -185,7 +229,15 @@
 .jumbotron .text {
   font-weight: 600;
 
-  background-color: rgba(255, 255, 255, .75);
+  font-size: 1.1em;
+  color: #FFF;
+
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.name-city {
+  font-size: 2em;
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 768px) {

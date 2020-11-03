@@ -57,6 +57,10 @@ body {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-primary {
   background-color: #67328D !important;
 }
@@ -129,13 +133,17 @@ a {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/HelveticaNeueLTStd-Roman.otf");
+}
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.4;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.5;
 }
 
 .title {
@@ -367,7 +375,51 @@ body {
 .jumbotron {
   position: relative;
   height: 415px;
-  background: center/cover no-repeat url(../../images/header_home_page.png);
+  background: center/cover no-repeat url(../../images/photos/numeriquelles15.jpg);
+}
+
+.jumbotron-2 {
+  background-image: url(../../images/photos/numeriquelles1.jpg);
+}
+
+.jumbotron-3 {
+  background-image: url(../../images/photos/numeriquelles2.jpg);
+}
+
+.jumbotron-4 {
+  background-image: url(../../images/photos/numeriquelles3.jpg);
+}
+
+.jumbotron-5 {
+  background-image: url(../../images/photos/numeriquelles4.jpg);
+}
+
+.jumbotron-6 {
+  background-image: url(../../images/photos/numeriquelles5.jpg);
+}
+
+.jumbotron-7 {
+  background-image: url(../../images/photos/numeriquelles6.jpg);
+}
+
+.jumbotron-8 {
+  background-image: url(../../images/photos/numeriquelles7.jpg);
+}
+
+.jumbotron-9 {
+  background-image: url(../../images/photos/numeriquelles8.jpg);
+}
+
+.jumbotron-10 {
+  background-image: url(../../images/photos/numeriquelles9.jpg);
+}
+
+.jumbotron-11 {
+  background-image: url(../../images/photos/numeriquelles10.jpg);
+}
+
+.jumbotron-12 {
+  background-image: url(../../images/photos/numeriquelles11.jpg);
 }
 
 .jumbotron .presentation {
@@ -378,7 +430,14 @@ body {
 
 .jumbotron .text {
   font-weight: 600;
-  background-color: rgba(255, 255, 255, 0.75);
+  font-size: 1.1em;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.name-city {
+  font-size: 2em;
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 768px) {
@@ -500,66 +559,34 @@ body {
 }
 
 .partners img {
-  width: 40%;
+  width: 65%;
 }
 
+.partner {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 500px) {
+  .partners img {
+    width: 40%;
+  }
+}
 @media only screen and (min-width: 768px) {
   .partners {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
+  .partner {
+    height: 150px;
+  }
+
   .partners img {
-    width: 40%;
-  }
-}
-/*Contact*/
-.form-full {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  margin-top: 30px;
-  border-radius: 3px;
-}
-
-.form .rgpd p {
-  font-size: 0.8em;
-}
-
-.form {
-  margin: 0 auto;
-  background: #01f7ad;
-  background: linear-gradient(0deg, rgba(1, 247, 173, 0.664) 0%, rgba(103, 50, 141, 0.61) 100%);
-  background-size: cover;
-  padding: 10px;
-}
-
-.form input[type=checkbox] {
-  float: left;
-  margin-right: 10px;
-}
-
-.form input[type=text],
-.form textarea,
-.form button {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  width: 100%;
-  border-radius: 3px;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: bisque;
-  box-shadow: 5px 5px 2px 1px rgba(228, 228, 237, 0.2);
-}
-
-@media only screen and (min-width: 768px) {
-  .form-full {
-    display: flex;
-  }
-
-  .form {
-    padding: 50px;
-    width: 700px;
+    width: 45%;
   }
 }
 .draw-text-ul {
@@ -569,10 +596,6 @@ body {
 /*Cities*/
 .workshop p {
   margin-top: 20px;
-}
-
-.name-city {
-  font-size: 30px;
 }
 
 .workshops-images {
@@ -662,18 +685,26 @@ body {
   transition: 2s;
 }
 
+.parade-images .more {
+  cursor: pointer;
+}
+
 .text-image {
   margin-top: 60px;
   margin-bottom: 40px;
 }
 
 .text-image .image {
-  min-height: 100%;
+  min-height: 150px;
   background: center/cover no-repeat url(../../images/photos/numeriquelles16.jpg);
 }
 
 .text-image .image-2 {
-  background-image: url(../../images/photos/numeriquelles15.jpg);
+  background-image: url(../../images/photos/numeriquelles17.png);
+}
+
+.text-image .image-3 {
+  background-image: url(../../images/photos/numeriquelles14.jpg);
 }
 
 .text-image .paragraphe {
@@ -782,6 +813,127 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 30px;
+  }
+}
+.material-access-button {
+  margin-top: 60px;
+}
+
+.image-onisep-logo {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.contain-img-onisep {
+  text-align: center;
+}
+
+.container-banner-onisep {
+  text-align: center;
+}
+
+.onisep-banner {
+  width: 100%;
+}
+
+/*Mentions legales*/
+.mentions-legales,
+.presse {
+  margin: 60px;
+}
+
+.mentions-legales p,
+.presse p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mentions-ul {
+  list-style-type: inherit;
+}
+
+.mentions-ul li {
+  padding-left: 5px;
+}
+
+b {
+  font-weight: bold;
+}
+
+.team-image {
+  background: center/cover no-repeat url(../../images/photos/numeriquelles11.jpg);
+  position: relative;
+  height: 280px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+/*Contact*/
+.form-full {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+
+.form .rgpd p {
+  font-size: 0.8em;
+}
+
+.form {
+  margin: 0 auto;
+  background: #01f7ad;
+  background: linear-gradient(0deg, rgba(1, 247, 173, 0.664) 0%, rgba(103, 50, 141, 0.61) 100%);
+  background-size: cover;
+  padding: 10px;
+}
+
+.form input[type=checkbox] {
+  float: left;
+  margin-right: 10px;
+}
+
+.form input[type=text],
+.form textarea,
+.form button {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: bisque;
+  box-shadow: 5px 5px 2px 1px rgba(228, 228, 237, 0.2);
+}
+
+@media only screen and (min-width: 768px) {
+  .form-full {
+    display: flex;
+  }
+
+  .form {
+    padding: 50px;
+    width: 700px;
+  }
+}
+.internships {
+  margin-top: 100px;
+}
+
+.internships a {
+  margin: 10px 0;
+}
+
+.internships .paragraph {
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .internships a {
+    display: block;
+    width: 400px;
+    margin: 20px 0;
   }
 }
 

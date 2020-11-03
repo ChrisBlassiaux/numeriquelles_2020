@@ -1,0 +1,19 @@
+.internships {
+  margin-top: 100px;
+}
+
+.internships a {
+  margin: 10px 0;
+}
+
+.internships .paragraph {
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 768px) { 
+  .internships a {
+    display: block;
+    width: 400px;
+    margin: 20px 0;
+  }
+}

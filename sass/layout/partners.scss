@@ -14,7 +14,22 @@
 }
 
 .partners img {
-  width: 40%;
+  width: 65%;
+}
+
+.partner {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (min-width: 500px) { 
+  .partners img {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 768px) { 
@@ -24,7 +39,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
+  .partner {
+    height: 150px;
+  }
+
   .partners img {
-    width: 40%;
+    width: 45%;
   }
 }
