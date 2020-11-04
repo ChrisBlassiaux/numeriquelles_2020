@@ -68,7 +68,6 @@
         </div>
       </div>
     </header>
-    
 
     <main class="main-form">
       <div class="container">
@@ -80,32 +79,28 @@
         </div>
       <div class="form-full">
         <div class="form">
-          <form id="contact-form" method="post" action="form-contact" role="form">
-            <p>
-            <label for="name"></label>
-            <input type="text" name="name" id="name" placeholder="Nom">
-            <p class="comments"></p>
-            </p>
-            <p>
-            <label for="firstname"></label>
-            <input type="text" name="firstname" id="firstname" placeholder="Prenom">
-            <p class="comments"></p>
-            </p>
-            <label for="email"></label>
-            <input type="text" name="email" id="email" placeholder="E-mail">
-            <p class="comments"></p>
-            <p>
-            <label for="phone"></label>
-            <input type="text" name="phone" id="phone" placeholder="Téléphone">
-            <p class="comments"></p>
-            </p>
-            <p>
-            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Commentaire"></textarea>
-            </p>
-            <p>
-              <button type="submit" class="btn btn-primary">Envoyer<i class="fa fa-angle-right"></i></button>
-            </p>
-          </form>
+        <form id="contact-form" method="post" action="" role="form">
+          <label for="firstname"></label>
+          <input id="firstname" type="text" name="firstname"  placeholder="Votre prénom">
+          <p class="comments"></p>
+          <label for="name"></label>
+          <input id="name" type="text" name="name"  placeholder="Votre Nom">
+          <p class="comments"></p>
+          <label for="email"></label>
+          <input id="email" type="text" name="email"  placeholder="Votre Email">
+          <p class="comments"></p>
+          <label for="phone"></label>
+          <input id="phone" type="text" name="phone"  placeholder="Votre Téléphone">
+          <p class="comments"></p>
+          <label for="message"></label>
+          <textarea id="message" name="message"  placeholder="Votre Message" rows="4"></textarea>
+          <p class="comments"></p>
+          <div class="rgpd">
+          <input type="checkbox" name="" id="">
+          <p>J'accepte les termes et conditions et la politique de confidentialité</p>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer<i class="fa fa-angle-right"></i></button>
+        </form>
         </div>
       </div>
     </main>
