@@ -10,10 +10,27 @@
   margin-top: 50px;
 }
 
+.container-internships {
+  text-align: center;
+}
+
+.container-internships img {
+  width: 110px;
+}
+
+.internships a {
+  margin: 20px 0;
+}
+
 @media only screen and (min-width: 768px) { 
   .internships a {
     display: block;
-    width: 400px;
     margin: 20px 0;
+  }
+
+  .container-internships {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
   }
 }
