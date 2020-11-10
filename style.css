@@ -761,6 +761,10 @@ body {
   border-radius: 0 0 7px 7px;
 }
 
+.informations-cities .mark {
+  text-transform: uppercase;
+}
+
 .draw-text {
   margin: 40px 0;
 }
