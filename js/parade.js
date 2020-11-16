@@ -4,7 +4,7 @@ let linkBtnMore_2 = document.querySelector('.parade-2 a');
 let images = [];
 
 for (let i = 1; i < 16; i++) {
-  images.push(`../../images/photos/numeriquelles${i}.jpg`);
+  images.push(`images/photos/numeriquelles${i}.jpg`);
 }
 
 const interval = setInterval(function() {
